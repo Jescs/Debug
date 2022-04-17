@@ -1,1 +1,8 @@
-sta
+stages:
+  - build
+  - test
+  
+build the car:
+  stage: build
+  script: 
+    - echo "Print data"
